@@ -111,9 +111,7 @@ images_b = [img[:,:,2] for img in images]
             
 exposure_times = np.array(exposure_times, dtype=np.float32)
 log_exposures = np.log(exposure_times)
-image = cv2.cvtColor(images[6], cv2.COLOR_BGR2RGB)
-plt.imshow(image)
-plt.show()
+
 
 S_r = sampleIntensities(images_r)
 S_g = sampleIntensities(images_g)
