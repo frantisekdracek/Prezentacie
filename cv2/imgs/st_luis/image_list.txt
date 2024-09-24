@@ -1,5 +1,0 @@
-# Filename   exposure 1/shutter_speed
-01.jpg 1/16
-02.jpg 1/4
-03.jpg 4
-04.jpg 16
